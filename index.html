@@ -5,36 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сторінки -->
     <header class="header">
-      <a class="style" href=""><span >Web</span>Studio</a>
+      <a class="link" href=""><span>Web</span><span class="header-link">Studio</span></a>
 
       <!-- Навігація -->
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a class="style" href="">Студія</a></li>
-          <li class="nav-item"><a class="style" href="">Портфоліо</a></li>
-          <li class="nav-item"><a class="style" href="">Контакти</a></li>
+          <li class="nav-item">
+            <a class="link" href=""><span>Студія</span></a>
+          </li>
+          <li class="nav-item"><a class="link" href=""><span class="header-link">Портфоліо</span></a></li>
+          <li class="nav-item"><a class="link" href=""><span class="header-link">Контакти</span></a></li>
         </ul>
       </nav>
       <ul class="list">
         <li class="list-item">
-          <a class="style" class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link" class="mail" href="mailto:info@devstudio.com"
+            ><span>info@devstudio.com</span></a
+          >
+          >
         </li>
         <li class="list-item">
-          <a class="style" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="style" href="tel:+380961111111"><span class=tel>+38 096 111 11 11</span></a>
         </li>
       </ul>
     </header>
 
     <main>
-      <!--<Блок з кнопкою "Замовити послугу"-->
+      <!--Hero-->
       <section class="hero">
         <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-         <button class="btn" type="button">Замовити послугу</button>
+        <button class="btn" type="button">Замовити послугу</button>
       </section>
 
       <!--Переваги-->
@@ -147,17 +152,22 @@
 
     <!--Підвал-->
     <footer class="footer">
-      <a class="style" class="link" href="">Webstudio</a>
+      <a class="style" class="link" href=""><span>Web</span><span class="link-footer">studio</span></a>
       <address>
         <p>м. Київ, пр-т Лесі Українки, 26</p>
         <ul class="list">
           <li class="list-item">
-            <a class="style" class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a
+              class="style"
+              class="link-footer"
+              href="mailto:info@devstudio.com"
+              ><span class="link-footer">info@devstudio.com</span></a
             >
           </li>
           <li class="list-item">
-            <a class="style" class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="style" href="tel:+380961111111"
+              ><span class="link-footer">+38 096 111 11 11</span></a
+            >
           </li>
         </ul>
       </address>

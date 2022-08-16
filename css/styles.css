@@ -1,9 +1,56 @@
-span {
-    color: blue;
+/* Шапка */
+
+.header-link {
+    color: #000;
 }
-.style{
+
+.tel {
+    color: #757575;
+}
+
+span {
+    color: #2196f3;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #2f303a;
+    color: white;
+}
+
+.btn{
+    background-color: #2196f3;
+    color: white;
+}
+
+/* Переваги */
+
+.subtitle {
+    color: #757575;
+}
+
+/* Наша команда */
+
+.link {
     text-decoration: none;
 }
-.mail {
-    color:blue;
+.style {
+    text-decoration: none;
 }
+
+/* Підвал */
+
+.link-footer {
+    color: white;
+}
+
+.footer {
+    background-color: #2f303a;
+    color: white;
+}
+
+
+
+
+
