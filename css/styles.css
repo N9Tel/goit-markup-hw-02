@@ -4,8 +4,9 @@
     color:rgb(0, 0, 0, 0);
 }
 
-.list-item {
-    color: rgb(0, 0, 0, 0);
+
+ul {
+    list-style: none;
 }
 
 .header-link {
@@ -27,7 +28,7 @@ span {
     color: white;
 }
 
-.btn{
+.button{
     background-color: #2196f3;
     color: white;
 }
@@ -38,6 +39,8 @@ span {
     color: rgb(0, 0, 0, 0);
 }
 
+
+
 .subtitle {
     color: #757575;
 }
@@ -47,11 +50,13 @@ span {
 .link {
     text-decoration: none;
 }
+
+
+/* Підвал */
+
 .style {
     text-decoration: none;
 }
-
-/* Підвал */
 
 .link-footer {
     color: white;
