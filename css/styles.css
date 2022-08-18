@@ -24,6 +24,12 @@ font-family: 'Roboto';
     
 }
 
+/* Навігація */
+
+.tel {
+    color: #757575;
+}
+
 
 ul {
     list-style: none;
@@ -89,8 +95,13 @@ ul {
 
 /* Підвал */
 
+
+    
+
+
 .style {
     color: white;
+    text-decoration: none;
 }
 
 .link-footer {
@@ -111,6 +122,7 @@ ul {
 
 .logo-link {
     color: #2196f3;
+    text-decoration: none;
 }
 
 
