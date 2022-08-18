@@ -1,5 +1,5 @@
 :root {
-   --main-color: #757575;
+   
 
 }
 
@@ -8,18 +8,21 @@
 
 /* Шапка */
 
+.header-link {
+    color: #2196f3;
+}
+
 body {
-    color: var(--main-color);
+    background-color: white;
+    color: #757575;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     
     
 }
-
-h1,h2,h3 {
-    color:black
-}
-
-
-
 
 
 ul {
@@ -47,7 +50,27 @@ ul {
     color: white;
 }
 
-/* Переваги */
+/* Feature */
+
+.list-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.work-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
 
 
 
@@ -56,6 +79,8 @@ ul {
 
 
 /* Наша команда */
+
+
 
 .link {
     text-decoration: none;
@@ -86,10 +111,25 @@ ul {
 
 
 
-h1 {
-    color: rgb(0, 0, 0, 0);
-}
 
-h2,h3 {
-    font-family: Roboto;
+h2 {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
+    
+h3 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+   
