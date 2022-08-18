@@ -78,6 +78,26 @@ ul {
         letter-spacing: 0.03em;
 }
 
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
 
 
@@ -116,6 +136,10 @@ ul {
 
 /* Стилі для portfolio.html */
 
+.filters {
+    color: rgba(0, 0, 0, 0)
+}
+
 .sub-button {
     background-color: #F5F4FA;
 }
@@ -128,24 +152,7 @@ ul {
 
 
 
-h2 {
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
+
     
-h3 {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.03em;
-        color: #212121;
-}
+
    
