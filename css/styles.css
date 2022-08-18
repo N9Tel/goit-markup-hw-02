@@ -1,31 +1,43 @@
+:root {
+   --main-color: #757575;
+
+}
+
+
 /* Стилі для index.html */
 
 /* Шапка */
 
-.nav-item {
-    color:rgb(0, 0, 0, 0);
+body {
+    color: var(--main-color);
+    
+    
 }
+
+h1,h2,h3 {
+    color:black
+}
+
+
+
 
 
 ul {
     list-style: none;
 }
 
-.header-link {
-    color: #000;
-}
 
-.tel {
-    color: #757575;
-}
 
-span {
-    color: #2196f3;
-}
+
+
 
 /* Hero */
 
-.hero {
+.hero-title {
+    color: white;
+}
+
+.hero, .footer {
     background-color: #2f303a;
     color: white;
 }
@@ -37,15 +49,11 @@ span {
 
 /* Переваги */
 
-.title {
-    color: rgb(0, 0, 0, 0);
-}
 
 
 
-.subtitle {
-    color: #757575;
-}
+
+
 
 /* Наша команда */
 
@@ -57,11 +65,12 @@ span {
 /* Підвал */
 
 .style {
-    text-decoration: none;
+    color: white;
 }
 
 .link-footer {
     color: white;
+    text-decoration: none;
 }
 
 .footer {
@@ -81,4 +90,6 @@ h1 {
     color: rgb(0, 0, 0, 0);
 }
 
-
+h2,h3 {
+    font-family: Roboto;
+}
