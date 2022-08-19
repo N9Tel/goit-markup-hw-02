@@ -61,6 +61,7 @@ ul {
 
 .list-title {
     font-family: 'Roboto';
+    color: #212121;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
@@ -71,6 +72,7 @@ ul {
 
 .work-title {
     font-family: 'Roboto';
+    color: #212121;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -79,16 +81,7 @@ ul {
         letter-spacing: 0.03em;
 }
 
-h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
+
 
 h3 {
     font-family: 'Roboto';
@@ -109,6 +102,18 @@ h3 {
 
 .about {
     background-color: #F5F4FA;
+}
+
+.title-about {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
 }
 
 .link {
