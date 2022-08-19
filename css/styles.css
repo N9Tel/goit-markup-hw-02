@@ -27,6 +27,7 @@ font-family: 'Roboto';
 /* Навігація */
 
 .tel {
+
     color: #757575;
 }
 
@@ -106,7 +107,9 @@ h3 {
 
 /* Наша команда */
 
-
+.about {
+    background-color: #F5F4FA;
+}
 
 .link {
     text-decoration: none;
@@ -129,9 +132,13 @@ h3 {
     text-decoration: none;
 }
 
-.footer {
+.footer { 
     background-color: #2f303a;
     color: white;
+}
+
+address {
+    font-style: normal;
 }
 
 /* Стилі для portfolio.html */
