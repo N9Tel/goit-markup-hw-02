@@ -1,35 +1,41 @@
 :root {
-   
+   /* Текстові кольори */
+--main-txt-color: #757575;
+--header-color: #212121;
+--accent-color: #2196F3;
+--txt-color: #FFFFFF;
+--add-color: rgba(255, 255, 255, 0.6);
+
+/* Фонові кольри */
+--main-bg-color: #FFFFFF;
+--section-bg-color: #2F303A;
+--add-bg-color: #F5F4FA;
+
+/* Інше */
+
+
 
 }
 
 
 /* Стилі для index.html */
+body {
+    color: var(--main-txt-color);
+    background-color: var(--main-bg-color);
+    
+}
 
 /* Шапка */
 
-.header-link {
-    color: #2196f3;
-}
 
-body {
-    background-color: white;
-    color: #757575;
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
-    
-}
+
+
 
 /* Навігація */
 
-.tel {
 
-    color: #757575;
-}
+
+
 
 
 ul {
@@ -55,43 +61,16 @@ ul {
 .button{
     background-color: #2196f3;
     color: white;
+    font-family: inherit;
 }
 
 /* Feature */
 
-.list-title {
-    font-family: 'Roboto';
-    color: #212121;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-}
-
-.work-title {
-    font-family: 'Roboto';
-    color: #212121;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
-}
 
 
 
-h3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
+
+
 
 
 
@@ -100,21 +79,9 @@ h3 {
 
 /* Наша команда */
 
-.about {
-    background-color: #F5F4FA;
-}
 
-.title-about {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #212121;
-}
+
+
 
 .link {
     text-decoration: none;
@@ -127,10 +94,7 @@ h3 {
     
 
 
-.style {
-    color: white;
-    text-decoration: none;
-}
+
 
 .link-footer {
     color: white;
@@ -156,10 +120,7 @@ address {
     background-color: #F5F4FA;
 }
 
-.logo-link {
-    color: #2196f3;
-    text-decoration: none;
-}
+
 
 
 
