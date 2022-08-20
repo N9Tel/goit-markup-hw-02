@@ -68,13 +68,14 @@ body {
 text-decoration: none;
 color: var(--accent-color);
 }
-.nav .contacts:hover,
-.nav .contacts:focus {
+.contacts .link:hover,
+.contacts .link:focus {
     color: var(--accent-color);
 }
 
 .tel {
     color: var(--main-txt-color);
+
 
 }
 
@@ -110,10 +111,27 @@ ul {
 
 /* Feature */
 
+.features {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--header-color);
+}
 
 
-
-
+.title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        letter-spacing: 0.03em;
+        color: var(--header-color);
+}
 
 
 
@@ -123,8 +141,19 @@ ul {
 
 
 /* Наша команда */
+.about {
+    background-color: var(--add-bg-color);
+}
 
-
+.team {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19/16);
+        letter-spacing: 0.03em;
+        color: var(--header-color);
+}
 
 
 
@@ -172,12 +201,20 @@ address {
 
 /* Стилі для portfolio.html */
 
-.filters {
-    color: rgba(0, 0, 0, 0)
+h3 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36/18);
+        letter-spacing: 0.06em;
+        color: var(--header-color);
 }
 
+
+
 .sub-button {
-    background-color: #F5F4FA;
+    background-color : var(--add-bg-color);
 }
 
 
