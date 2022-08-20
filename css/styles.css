@@ -12,9 +12,6 @@
 --add-bg-color: #F5F4FA;
 
 /* Інше */
-
-
-
 }
 
 
@@ -46,9 +43,6 @@ body {
     
 }
 
-
-
-
 /* Навігація */
 .current {
     color: var(--accent-color);
@@ -76,15 +70,11 @@ body {
 
 .tel:hover {
     color: var(--accent-color);
-
-
 }
+
 .tel {
     color: var(--main-txt-color);
 }
-
-
-
 
 ul {
     list-style: none;
@@ -125,7 +115,6 @@ ul {
         color: var(--header-color);
 }
 
-
 .title {
     font-family: 'Roboto';
         font-style: normal;
@@ -135,13 +124,6 @@ ul {
         letter-spacing: 0.03em;
         color: var(--header-color);
 }
-
-
-
-
-
-
-
 
 /* Наша команда */
 .about {
@@ -164,7 +146,6 @@ ul {
     text-decoration: none;
 }
 
-
 /* Підвал */
 .footer-link {
     font-family: 'Raleway';
@@ -182,11 +163,6 @@ ul {
     color: var(--accent-color);
     text-decoration: none;
 }
-
-    
-
-
-
 
 .link-footer {
     color: var(--add-color);
@@ -213,8 +189,6 @@ h3 {
         letter-spacing: 0.06em;
         color: var(--header-color);
 }
-
-
 
 .sub-button {
     background-color : var(--add-bg-color);
