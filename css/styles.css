@@ -64,21 +64,24 @@ body {
     color: var(--accent-color);
 }
 
-.contacts {
-text-decoration: none;
-color: var(--accent-color);
-}
-.contacts .link:hover,
+
+.contacts .link-mail:hover,
 .contacts .link:focus {
+    color: blue;
+}
+.link-mail {
     color: var(--accent-color);
+    text-decoration: none;
 }
 
+.tel:hover {
+    color: var(--accent-color);
+
+
+}
 .tel {
     color: var(--main-txt-color);
-
-
 }
-
 
 
 
